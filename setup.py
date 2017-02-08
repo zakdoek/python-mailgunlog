@@ -1,9 +1,9 @@
 import setuptools
-import mailgunlog
+from mailgunlog import info
 
-setuptools.setup(name=mailgunlog.__title__,
-                 version=mailgunlog.__version__,
-                 description=mailgunlog.__doc__,
+setuptools.setup(name=info.__title__,
+                 version=info.__version__,
+                 description="",
                  long_description='Python Package to retrieve Mailgun logs for a given domain.',
                  author='Getup Cloud',
                  author_email='mateus.caruccio@getupcloud.com',

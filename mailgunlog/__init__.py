@@ -3,10 +3,6 @@
 Retrive Mailgun logs for a given domain.
 '''
 
-__title__ = 'mailgunlog'
-__version__ = '0.0.4'
-__author__ = 'Getup Cloud'
-__license__ = 'Apache License 2.0'
-__copyright__ = 'Copyright 2015 Getup Cloud'
-
+from .info import __title__, __version__, __author__, __license__
+from .info import __copyright__
 from .mailgunlog import logs
